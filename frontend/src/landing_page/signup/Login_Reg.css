@@ -1,0 +1,40 @@
+.auth-container {
+    width: 450px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.switch-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.switch-tabs button {
+    width: 50%;
+    border-radius: 0;
+    background-color: #eee;
+    color: #000;
+}
+
+.switch-tabs .active {
+    background-color: #0077ff;
+    color: #fff;
+}
